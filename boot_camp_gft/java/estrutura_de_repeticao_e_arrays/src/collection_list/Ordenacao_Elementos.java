@@ -1,4 +1,4 @@
-package collection;
+package collection_list;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -7,12 +7,12 @@ import java.util.List;
 
 public class Ordenacao_Elementos {
     public static void main(String[] args) {
-      List<Gato> meusGatos = new ArrayList<>(){{
-          add(new Gato("jon",18,"preto"));
-          add(new Gato("simba",6,"tigrado"));
-          add(new Gato("jon",12,"amarelo"));
+      List<Gato> meusGatos = new ArrayList<>();
+        meusGatos.add(new Gato("jon",18,"preto"));
+        meusGatos.add(new Gato("simba",6,"tigrado"));
+        meusGatos.add(new Gato("jon",12,"amarelo"));
 
-      }};
+
         System.out.println("--\tordem de Inserção\t--");
         System.out.println(meusGatos);
 
